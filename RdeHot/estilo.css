@@ -11,19 +11,19 @@ body{
 #arriba{
     width: 100%;
     height: 50vh;
-    border: solid black 5px;
+    border: solid black 2px;
 
 }
 #abajo{
     width: 100%;
     height: 50vh;
-    border: solid black 5px;
+    border: solid black 2px;
 
 }
 #centro{
     width: 500px;
     height: 500px;
-    border: solid black 5px;
+    border: solid black 2px;
 border-radius: 50%;
 position: absolute;
 top: 0;
@@ -31,4 +31,10 @@ bottom: 0;
 left: 0;
 right: 0;
 margin: auto;
+overflow: hidden;
+}
+#centro img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
 }
