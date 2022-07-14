@@ -19,8 +19,9 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 50%);
     overflow: hidden;
+    
 }
 #abajo{
     width: 100%;
@@ -30,7 +31,8 @@ body{
     bottom: 0;
     left: 0;
     overflow: hidden;
-    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 50%);
+    clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0% 100%);
+    
 }
 #centro{
     width: 200px;
@@ -50,4 +52,13 @@ z-index: 1000;
     width: 200px;
     height: 200px;
     object-fit: cover;
+}
+
+#home{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
