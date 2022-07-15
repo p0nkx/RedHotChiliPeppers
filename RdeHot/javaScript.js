@@ -1,23 +1,15 @@
-var btn = document.getElementById('home'),
+var btn = document.getElementById('btn'),
     arriba = document.getElementById('arriba'),
     abajo = document.getElementById('abajo'),
-    centro = document.getElementById('centro'),
-    contador = 0;
+    centro = document.getElementById('centro');
 
     function cambio()
     {
-        if(contador == 0)
-        (
-            arriba.classList.add('none')
-            contador = 1;
-        )
-        else
-        {
-            arriba.classList.remove('none');
-            contador = 0;
-        }
-
-
+        
+            arriba.classList.add('efecto');
+            
+          
+       
     }
 
-    btn.addEventListener('click',cambio,true);
+    btn.addEventListener('click',cambio);

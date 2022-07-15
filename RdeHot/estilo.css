@@ -23,6 +23,14 @@ body{
     overflow: hidden;
     
 }
+.efecto{
+    position: absolute;
+    top: -50vh;
+    transition: 1s;
+    
+    
+}
+
 #abajo{
     width: 100%;
     height: 100%;
@@ -66,3 +74,4 @@ z-index: 1000;
     right: 0;
     margin: auto;
 }
+
